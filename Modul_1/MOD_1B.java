@@ -1,4 +1,4 @@
-public class Modul1_2 {
+public class MOD_1B {
     public static void main(String[] args) {
         System.out.print("PRODI\t\t: SISTEM INFOMASI");
         System.out.print("FAKULTAS\t: FAKULTAS ILMU KOMPUTER");
