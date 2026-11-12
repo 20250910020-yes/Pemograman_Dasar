@@ -21,11 +21,11 @@ public class LatihanMOD3 {
             Karyawan[i][3] = input.nextLine();
 
         }
-        System.out.print("\nNo.\tNAMA\tJABATAN\tGAPOK\tTUNJANGAN\n");
+        System.out.print("\nNo.\tNAMA\t\tJABATAN\t\tGAPOK\t\tTUNJANGAN\n");
         for (int i = 0; i < jumlah; i++) {
             Long gapok = Long.parseLong(Karyawan[i][2]);
             Long tunjangan = Long.parseLong(Karyawan[i][3]);
-            System.out.println((i + 1) + "\t" + Karyawan[i][0] + "\t" + Karyawan[i][1] + "\t" + Karyawan[i][2] + "\t" + Karyawan[i][3]);
+            System.out.println((i + 1) + "\t" + Karyawan[i][0] + "\t\t" + Karyawan[i][1] + "\t\t" + Karyawan[i][2] + "\t\t1" + Karyawan[i][3]);
         }
     }
 }
